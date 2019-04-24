@@ -1,0 +1,101 @@
+/* font-family: 'Quicksand', sans-serif;
+   font-family: 'Palanquin', sans-serif; 
+
+*/
+
+body{
+  font-family: 'Palanquin', sans-serif;
+}
+
+nav {
+
+  height: 60px;
+  width: 320px;
+  opacity: 0.95;
+  background-color: #1D1D1B;
+  color: white;
+  padding: 15px;
+}
+
+
+.menuOpen {
+  color: #AE9A91;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 12px;
+  padding: 5px;
+  margin-left: 15px;
+  margin-right: 0px;
+  text-shadow: 0 5px 10px 0 rgba(248,244,227,0.15);
+}
+
+.burger {	
+  height: 14px;	
+  width: 18px;
+  padding-left: 0;
+}
+
+.menu {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #1D1D1B;
+  color: white;
+}
+
+.eshop {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #74A89F;
+  color: white;
+}
+
+.img-visual{
+  width: 100vw;
+  height: 100vh;
+}
+
+.eshop-btn {
+  font-family: 'Palanquin', sans-serif;
+  font-size: 20px;
+  background-color: #74A89F;
+  padding: 10px 48px;
+  color: white;
+  border:4px solid #74A89F;
+  border-radius: 4px;
+}
+
+.exkurze-do-vyroby{
+  font-family: 'Palanquin', sans-serif;
+  font-size: 20px;
+  padding: 10px 50px;
+  color: white;
+  opacity: 1;
+  border:2px solid white;
+  border-radius: 4px;
+}
+
+.slider{
+  height: 217px;
+  width: 290px;
+  margin-left: 15px;
+  border-radius: 4px;	
+  box-shadow: 0 5px 20px 0 rgba(168,77,32,0.5);
+}
+
+.nordlys {
+	height: 30px;
+	color: #573D31;
+	font-family: Palanquin;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-shadow: 0 5px 10px 0 rgba(248,244,227,0.15);
+}
+
+.diamond {
+	height: 30px;
+	color: #573D31;
+	font-family: Palanquin;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-align: right;
+	text-shadow: 0 5px 10px 0 rgba(248,244,227,0.15);
+}

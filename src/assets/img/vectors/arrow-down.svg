@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="32px" viewBox="0 0 25 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>down</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="––-Desktop-:-1920px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Kontakt" transform="translate(-825.000000, -546.000000)" fill-rule="nonzero" fill="#8ACBC1">
+            <g id="CONTENT">
+                <g id="kontakt">
+                    <g id="card" transform="translate(315.000000, 277.000000)">
+                        <g id="down" transform="translate(360.000000, 267.000000)">
+                            <g transform="translate(162.500000, 18.000000) rotate(-270.000000) translate(-162.500000, -18.000000) translate(146.500000, 5.500000)" id="Shape">
+                                <path d="M19.3166258,25 C19.1502341,25 18.9838425,24.9355238 18.8564488,24.8078872 C18.6029615,24.5512981 18.6029615,24.1341763 18.8564488,23.8775873 L30.0969868,12.4995066 L18.8577488,1.12274169 C18.6042614,0.866152611 18.6042614,0.449030883 18.8577488,0.192441807 C19.1112361,-0.064147269 19.5233155,-0.064147269 19.7768028,0.192441807 L31.4762178,12.0350145 C31.7297052,12.2916036 31.7297052,12.7087253 31.4762178,12.9653144 L19.7768028,24.8078872 C19.6494092,24.9355238 19.4830175,25 19.3166258,25 Z"></path>
+                                <path d="M31.3333333,13 L0.666666667,13 C0.298666667,13 0,12.776 0,12.5 C0,12.224 0.298666667,12 0.666666667,12 L31.3333333,12 C31.7013333,12 32,12.224 32,12.5 C32,12.776 31.7013333,13 31.3333333,13 Z"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
