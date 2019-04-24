@@ -47,8 +47,9 @@ nav {
 }
 
 .img-visual{
-  width: 100vw;
-  height: 100vh;
+  height: 568px;	
+  width: 320px;	
+  background: linear-gradient(180deg, #573D31 0%, #1D1D1B 100%);
 }
 
 .eshop-btn {
@@ -71,13 +72,26 @@ nav {
   border-radius: 4px;
 }
 
-.slider{
+.slide{
   height: 217px;
   width: 290px;
   margin-left: 15px;
   border-radius: 4px;	
   box-shadow: 0 5px 20px 0 rgba(168,77,32,0.5);
 }
+
+.slide1 {
+  background-image: url("img/slider/slider-1");
+}
+
+.slide2 {
+  background-image: url("img/slider/slider-2");
+}
+
+.slide {
+  background-image: url("img/slider/slider-3");
+}
+
 
 .nordlys {
 	height: 30px;
@@ -99,3 +113,7 @@ nav {
 	text-align: right;
 	text-shadow: 0 5px 10px 0 rgba(248,244,227,0.15);
 }
+
+
+
+
