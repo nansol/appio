@@ -1,11 +1,3 @@
-/* font-family: 'Quicksand', sans-serif;
-   font-family: 'Palanquin', sans-serif; 
-
-*/
-
-body{
-  font-family: 'Palanquin', sans-serif;
-}
 
 nav {
 
@@ -80,23 +72,23 @@ nav {
   box-shadow: 0 5px 20px 0 rgba(168,77,32,0.5);
 }
 
+
 .slide1 {
-  background-image: url("img/slider/slider-1");
-}
+  background-image: url('/img/slider/slider-1.jpg');
+} 
 
 .slide2 {
-  background-image: url("img/slider/slider-2");
+  background-image: url('/img/slider/slider-2.jpg');
 }
 
-.slide {
-  background-image: url("img/slider/slider-3");
-}
-
+.slide3 {
+  background-image: url('/img/slider/slider-3.jpg');
+} 
 
 .nordlys {
 	height: 30px;
 	color: #573D31;
-	font-family: Palanquin;
+	font-family: 'Palanquin';
 	font-size: 16px;
 	letter-spacing: 0.5px;
 	line-height: 30px;
@@ -106,7 +98,7 @@ nav {
 .diamond {
 	height: 30px;
 	color: #573D31;
-	font-family: Palanquin;
+	font-family: 'Palanquin';
 	font-size: 16px;
 	letter-spacing: 0.5px;
 	line-height: 30px;
@@ -114,6 +106,127 @@ nav {
 	text-shadow: 0 5px 10px 0 rgba(248,244,227,0.15);
 }
 
+.kol {
+  display: flex;
+  justify-content: center;
+}
+  
 
+ .btn-full {
+  padding: 15px 5px;
+	border-radius: 4px;
+	background-color: #AE9A91;
+  box-shadow: 0 5px 10px 0 rgba(174,154,145,0.2);
+}
 
+.zobrazit-vsechny-kol {
+	height: 36px;
+	color: #FFFFFF;
+	font-family: 'Palanquin';
+	font-size: 20px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+  line-height: 36px;
+  text-align: center;
+} 
 
+.del {
+  margin: 0 145px 30px 140px;
+	height: 1px;
+	width: 30px;
+	opacity: 0.3;
+	background-color: black;
+}
+
+.produkty {
+	height: 957px;
+	width: 290px;
+}
+.dalsi-produkty-a-sluzby {
+  margin: 80px 70px 40px 70px;
+	width: 180px;
+	color: #1D1D1B;
+	font-family: "Quicksand";
+	font-size: 24px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.reklamni-svicky-mobile {
+  margin-left: 15px;
+	height: 140px;
+	width: 290px;
+}
+
+.reklamni-svicky {
+  margin: 30px 70px 30px 70px;
+	width: 280px;
+  height: 25px;	
+  width: 159px;	
+  color: #1D1D1B;	
+  font-family: 'Quicksand';	
+  font-size: 20px;	
+  font-weight: 500;	
+  letter-spacing: 0.5px;	
+  line-height: 25px;
+}
+
+.spojte-prezentaci-va {
+  margin-left: 30px;
+	height: 96px;
+	width: 260px;
+	color: #573D31;
+	font-family: Palanquin;
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 24px;
+	text-align: center;
+}
+
+.vice-informaci {
+  margin: 0 0 0 106px;
+  height: 29px;
+  width: 109;
+	color: #AE9A91;
+	font-family: 'Palanquin';
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+	line-height: 29px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.profesionalni-osvetleni-mobile {
+  margin-top: 20px;
+  margin-left: 15px;
+	height: 140px;
+	width: 290px;
+}
+
+.profesionalni-osvetleni {
+  margin: 30px;
+  height: 25px;	
+  width: 260px;	
+	color: #1D1D1B;
+	font-family: Quicksand;
+	font-size: 20px;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	line-height: 25px;
+	text-align: center;
+}
+
+.vyuzijte-zive-svetlo {
+	height: 120px;
+  width: 260px;
+  margin-left: 33px;
+	color: #573D31;
+	font-family: 'Palanquin';
+	font-size: 16px;
+	letter-spacing: 0.5px;
+	line-height: 24px;
+	text-align: center;
+}
