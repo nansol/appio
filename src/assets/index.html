@@ -12,192 +12,234 @@
   <title>UNIPAR</title>
 </head>
 <body>
-<header>
-    <nav>
-      <div class="row">
-        <div class="col-8 logo">
-          <img src="\img\unipar.svg" alt="unipar">        
-        </div>
-        <div class="col-2 menuOpen">
-          MENU
-        </div>
-        <div class="col-1 burger">
-          <img src="img/burger.svg" alt="menu">       
-        </div>
+  <header class="top">
+    <div class="row align-items-center p-3 ">
+      <div class="col-7 text-center">
+        <img src="img/unipar.svg" alt="">
       </div>
-    </nav>
-    <div class="container menu pt-5">
-      <div class="row">
-        <div class="col menu">
-          <ul class="nav flex-column ">
-            <li class="nav-item">
-              <a class="nav-link text-white text-center" href="#">Úvod</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white text-center" href="#">Produkty</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white text-center" href="#">Kde koupit</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white text-center" href="#">O nás</a>
-            </li>
-            <li class="nav-item pb-5">
-              <a class="nav-link text-white text-center" href="#">Kontakt</a>
-            </li>
-          </ul>
-        </div>
+      <div class="col-3 pl-5">
+        <div class="menu">MENU</div>
       </div>
-      <div class="row justify-content-center  p-3">
-        <div class="col-3">
-          Český
-        </div>
-        <div class="col-3">
-          English
-        </div>
-      </div>
-      <div class="row justify-content-center eshop p-3">
-        <div class="col-1 pl-3">
-          <img src="img/vectors/bag.svg" alt="bag">
-        </div>
-        <div class="col-4 pl-4">
-            E-shop
-        </div>
+      <div class="col-1 pr-3 pb-3">
+        <div class="burger"><img src="img/burger.svg" alt=""></div>
       </div>
     </div>
   </header>
-  <section>
-    <div class="card bg-dark text-white text-center">
-      <img class="img-visual" src="img/vizual/vizual-mobile.jpg" alt="Card image">
+  <section class="content">
+    <div class="card text-white vizual text-center">
+      <img class="card-img vizual-mobile" src="img/vizual/vizual-mobile.jpg" alt="Unipar">
       <div class="card-img-overlay">
-        <h2 class="card-title mt-3">Výrobce svíček prémiové kvality</h2>
-        <p class="card-text mt-4">Jsme jedineční tím, že navrhujeme a z prvotřidních materiálů vyrabíme výjimečné, ručně dotvářené svíčky s přesným zaměřením potřeby zákazníků.</p>
-        <div class="row mt-5">
-          <div class="col">
-            <a href="" class="eshop-btn">Nakoupit v e-shopu</a>
+        <h5 class="card-title vyrobce-svi-ek-premi">Výrobce svíček prémiové kvality</h5>
+        <p class="card-text jsme-jedine-ni-tim mb-5">Jsme jedineční tím, že navrhujeme a z prvotřidních materiálů vyrabíme výjimečné, ručně dotvářené svíčky s přesným zaměřením potřeby zákazníků</p>
+        <div class="row c-2-a-shop ">
+          <div class="col btn-full ">
+            <div>
+              <a  class="nakoupit-v-e-shopu align-items-center" href="#">Nakoupit v e-shopu</a>
+            </div>
+          </div>
+        </div>
+        <div class="row c-2-a-exkurze">
+          <div class="btn-ghost">
+            <div>
+              <a class="exkurze-do-vyroby align-items-center" href="#">Exkurze do výroby</a>
+            </div>
           </div>
         </div>
         <div class="row mt-5">
+            <div class="col">
+              <a href=""> <img src="img/vectors/drop-arrow.svg" alt=""> </a>
+            </div>
+          </div>
+      </div>
+    </div>
+    <section class="container kolekce">
+      <div class="kolekce-bg">
+        <div class="row text-center mt-5">
           <div class="col">
-            <a href="" class="exkurze-do-vyroby">Exkurze do výroby</a>
+            <h2 class="vybrane-kolekce-na-i">Vybrané kolekce našich produktů</h2>
           </div>
         </div>
-        <div class="row m-5">
-          <div class="col">
-            <a href=""> <img src="img/vectors/drop-arrow.svg" alt=""> </a>
+        <div class="del"></div>
+        <div class="cards">
+          <div class="mask">
+            <div class="slide">
+              <div class="slide1"></div>
+              <div class="slide2"></div>
+              <div class="slide3"></div>
+            </div>
+          </div>
+          <div class="rectangle-4">
+            <div class="twin">
+              <p>Twin</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <img src="img/vectors/left.svg" alt=""> 
+            </div>
+            <div class="col">
+              <p class="nordlys">Nordlys</p>
+            </div>
+            <div class="col">
+              <p class="diamond">Diamond</p>
+            </div>
+            <div class="col">
+              <img src="img/vectors/right.svg" alt=""> 
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="btn-full-zobrazit">
+                <div>
+                  <a class="zobrazit-v-echny-kol text-center" href="#">Zobrazit všechny kolekce</a>
+                </div>
+              </div>  
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
+    <section class="container produkty">
+        <div class="row text-center mt-1">
+          <div class="col">
+            <h2 class="dal-i-produkty-a-slu">Další produkty a služby</h2>
+          </div>
+        </div>
+        <div class="del"></div>
+        <div class="card mask-produkty text-center mt-4">
+          <img class="card-img-top reklamni-svicky-mobile" src="img/mobile/reklamni-svicky-mobile.jpg" alt="reklamni svicky">
+          <div class="card-body">
+            <h5 class="card-title reklamni-svi-ky">Reklamní svíčky</h5>
+            <div class="del mt-3 mb-3"></div>
+            <p class="card-text spojte-prezentaci-va">Spojte prezentaci Vaši společnosti s navozením opravodové pohody Vaším zákazníkům a obchodním partnerům.</p>
+            <a href="#" class="vice-informaci">Více informací</a>
+          </div>
+        </div>
+        <div class="card mask-prof text-center mt-4">
+          <img class="card-img-top profesionalni-osvetleni-mobile" src="img/mobile/profesionalni-osvetleni-mobile.jpg" alt="profesionalni-osvetleni">
+          <div class="card-body">
+            <h5 class="card-title profesionalni-osv-tl">Profesionální osvětlení</h5>
+            <div class="del mt-3 mb-3"></div>
+            <p class="card-text vyu-ijte-ive-sv-tlo">Využijte živé světlo k osvětlení interiérů a exteriérů restaurace, Wellness, Spa, baru či kavárny a vytvořte tak přijemnou atmosféru vašim hostům.</p>
+            <a href="#" class="vice-informaci">Více informací</a>
+          </div>
+        </div>
+    </section>
+    <section class="container kontakt bg">
+      <div class="row text-center mt-5">
+        <div class="col">
+          <h2 class="kontaktujte-nas">Kontaktujte nás</h2>
+        </div>
+      </div>
+      <div class="del mt-4 mb-3"></div>
+      <form>
+        <div class="form-group">
+          <label for="jmeno" class="jmeno">Jméno</label><span class="required">*</span>
+          <input type="text" class="form-control-lg input" required >
+        </div>
+        <div class="form-group">
+            <label for="prijmeni" class="p-ijmeni">Příjmení</label><span class="required">*</span>
+            <input type="text" class="form-control-lg input" required >
+        </div>
+        <div class="form-group">
+          <label for="email" class="email">Kontaktní email</label><span class="required">*</span>
+          <input type="email" class="form-control-lg input" required >
+      </div>
+      <div class="form-group">
+        <label for="telefon" class="telefon">Telefon</label><span class="required">*</span>
+        <input type="text" class="form-control-lg input" required >
+      </div>
+      <div class="form-group form-check mt-4">
+        <input type="checkbox" class="form-check-input checkbox-normal">
+        <label class="form-check-label souhlasim-se-zpracov" for="souhlas">Souhlasím se zpracovnáním osobních údajů</label>
+      </div>
+        <button type="submit" class="btn-full-kontakt odeslat">Odeslat</button>
+      </form>
+    </section>
   </section>
+  <footer>
+    <div class=" container footer-bg">
+      <div class="row  text-center logo">
+        <div class="col">
+          <img src="img/favicon/apple-touch-icon.png" alt="unipar">
+        </div>
+        <div class="col">
+          <img class="logo" src="img/vectors/unipar.svg" alt="unipar">
+        </div>
+      </div>
+      <div class="soc">
+        <div class="row justify-content-center mt-5" >
+          <div class="col-2">
+              <img  src="img/vectors/fb.svg" class="fb" alt="...">
+          </div>
+          <div class="col-3">
+              <img src="img/vectors/ig.svg" class="ig" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="contact mt-5 text-center">
+        <div class="row">
+          <div class="col">
+            <div class="call">
+                <div class="btn-ghost-zavolej">
+                  <div>
+                    <a class="zavolejte" href="#">Zavolejte nám</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <div class="email">
+                <div class="btn-ghost-napis">
+                  <div>
+                    <a class="napiste" href="#">Napište nám</a>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      <div class="row text-center mt-4">
+        <div class="col">
+          <p><span class="copy"> &copy; 2019 </span>UNIPAR <span class="copy"> - Miroslav Šupler</span></p>
+        </div>
+   
+        
 
-  <section>
-    <div class="row text-center m-5">
-      <div class="col ">
-        <h4>Vybrané kolekce našich produktů</h4>
       </div>
-    </div>  
-    <div class="slide">
-      <div class="slide1"></div>
-      <div class="slide2"></div>
-      <div class="slide3"></div>
-    </div>
-      
-    <div class="row mt-4">
-      <div class="col-2">
-        <img id="left" src="img/vectors/left.svg" alt="">
-      </div>
-      <div class="col-4">
-        <p class="nordlys">Nordlys</p>    
-      </div>
-      <div class="col-4">
-        <p class="diamond">Diamond</p>    
-      </div>
-      <div class="col-2">
-          <img id="right" src="img/vectors/right.svg" alt="">
-    </div>
-    </section>
-    <section>
-      <div class="kol">
-        <div class="row btn-full">
-          <div class="col">
-            <a href="" class="zobrazit-vsechny-kol">Zobrazit všechny kolekce</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-      <div class="produkty">
-        <div class="row">
-          <div class="col">
-            <div class="dalsi-produkty-a-sluzby">
-              <h4>Další produkty a služby</h4>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="del"></div>
-          </div>
-        </div>
-        <div class="row ">
-          <div class="col justify-content-center">
-            <img  class="reklamni-svicky-mobile" src="img/global/reklamni-svicky-mobile.jpg" alt="reklamni-svicky">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ">
-            <h5 class="reklamni-svicky">Reklamní svíčky</h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="del"></div>
-          </div>
-        </div>
-        <div class="row">    
-            <div class="col justify-content-center">
-              <p class="spojte-prezentaci-va">Spojte prezentaci Vaši společnosti s navozením opravodové pohody Vaším zákazníkům a obchodním partnerům.</p>
-            </div>
-        </div>
-        <div class="row">    
-          <div class="col justify-content-center">
-            <a class="vice-informaci" href="">Více informací</a>
-          </div>
-        </div>
 
- 
-      <div class="row ">
-          <div class="col justify-content-center">
-            <img  class="profesionalni-osvetleni-mobile" src="img/global/profesionalni-osvetleni-mobile.jpg" alt="reklamni-svicky">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col ">
-            <h5 class="profesionalni-osvetleni">Profesionální osvětlení</h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="del"></div>
-          </div>
-        </div>
-        <div class="row">    
-          <div class="col justify-content-center">
-            <p class="vyuzijte-zive-svetlo">Využijte živé světlo k osvětlení interiérů a exteriérů restaurace, Wellness, Spa, baru či kavárny a vytvořte tak přijemnou atmosféru vašim hostům.</p>
-          </div>
-        </div>
-        <div class="row">    
-          <div class="col justify-content-center">
-            <a class="vice-informaci" href="">Více informací</a>
-          </div>
-        </div>
+
     </div>
-     
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script src="index.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <!-- script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
 </body>
 </html>
